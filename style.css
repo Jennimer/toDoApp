@@ -1,0 +1,166 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto";
+}
+body{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: rgb(166, 206, 206);
+    font-size: 30px;
+}
+
+    .otsikko, .lisaysBoxi{
+    padding: 20px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.otsikko{
+    background-color: rgb(158, 179, 118);
+    border-radius: 7px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+    min-width: 300px;
+    
+}
+
+#otsikko2{
+    text-align: center;
+    
+    
+    
+}
+
+
+input{
+    padding-left: 6px;
+    min-width: 280px;
+    height: 35px;
+    border: none;
+    display: flex;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 70px;
+}
+input:hover{
+    opacity: 0.8;
+    color: teal;
+}
+#lisaaTekeminen{
+    
+    margin-left: 4px;
+    margin-top: 1px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    line-height: 20px;
+    background-color: rgb(166, 206, 206);
+    
+    
+}
+#tehtavaBoxi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    min-width: 300px;
+}
+#lisaaTekeminen:hover{
+    opacity: 0.8;
+
+}
+
+  
+
+li {
+    list-style: none;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+h3{
+    padding: 10px;
+    
+    font-size: 20px;
+}
+
+li > input[type="text"]{
+
+    padding-left: 6px;
+    font-size: 20px;
+    min-width: 250px;
+    margin-left: 6px;
+    height: 32px;
+    border: none;
+    display: flex;
+    border-radius: 3px;
+    background-color: white;
+    
+    
+}
+li > label {
+    padding-left: 6px;
+    font-size: 20px;
+    min-width: 250px;
+    margin-left: 6px;
+    height: 32px;
+    border: none;
+    display: flex;
+    border-radius: 3px;
+    background-color: white;
+    line-height: 33px;
+    justify-content: space-between;
+}
+.fa-solid {
+    
+    color: rgb(83, 117, 108);
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+
+
+.fa-solid:hover{
+    opacity: 0.8;
+    color:rgb(81, 211, 211);
+}
+    
+
+
+.checked{
+    color:rgb(37, 36, 36);
+    text-decoration: line-through;
+
+}
+ul li input[type=text]{
+    display: none;
+    
+    
+}
+ul li input:hover{
+    opacity: 0.8;
+    color: teal;
+}
+
+ul li.editMode input[type=text]{
+    display: flex;
+    
+}
+ul li.editMode label{
+    display:none;
+    
+    
+}
+
