@@ -1,166 +1,134 @@
-
 *{
     box-sizing: border-box;
     margin: 0;
     font-family: "Roboto";
 }
-body{
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
-    background-color: rgb(166, 206, 206);
-    font-size: 30px;
-}
 
-    .otsikko, .lisaysBoxi{
-    padding: 20px;
-    min-height: 100px;
+body{
+    margin: 20px;
+    background-image: url("huonekasvit.jpg");
     display: flex;
     justify-content: center;
-    align-content: center;
-   
 }
 
+.otsikko, .lisaysBoxi {
+    padding: 20px;
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.container{
+    width: 450px;
+    align-items: center;
+}
+.tehtavat{
+    
+    border-radius: 5px;
+    max-width: 450px;
+    padding: 20px;
+    min-height: 100px;
+    display: flex;  
+}
 .otsikko{
-    background-color: rgb(158, 179, 118);
-    border-radius: 7px;
-    font-size: 25px;
-    color: white;
-    margin-bottom: 10px;
-    min-width: 300px;
-    
+   
+    margin-bottom: 20px;
+    color: rgb(65, 85, 107);
+    font-size: 20px;
 }
-
-#otsikko2{
-    text-align: center;
-    
-    
-    
-}
-
 
 input{
     padding-left: 6px;
-    min-width: 280px;
-    height: 35px;
+    min-width: 450px;
+    height: 34px;
     border: none;
     display: flex;
     border-radius: 3px;
     background-color: white;
-    font-size: 20px;
-    margin-left: 70px;
-}
-input:hover{
-    opacity: 0.8;
-    color: teal;
+    font-size: 20px;   
 }
 #lisaaTekeminen{
     
-    margin-left: 4px;
-    margin-top: 1px;
-    height: 30px;
-    width: 30px;
+    margin-left: -27px;
+    margin-top: 7px;
+    height: 50px;
+    width: 50px;
     border: none;
-    font-size: 20px;
-    border-radius: 3px;
-    line-height: 20px;
-    background-color: rgb(166, 206, 206);
-    
-    
 }
-#tehtavaBoxi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 50px;
-    min-width: 300px;
-}
-#lisaaTekeminen:hover{
-    opacity: 0.8;
-
-}
-
-  
-
-li {
-    list-style: none;
-    margin-bottom: 5px;
-    justify-content: space-between;
-    display: flex;
-    
+.paivays, #otsikko2{
+    color: rgb(53, 70, 69);
+    margin: 20px;
+    font-size: 25px;
 }
 h3{
-    padding: 10px;
-    
-    font-size: 20px;
+    font-size: 22px;
+    text-align: center;
 }
 
-li > input[type="text"]{
-
-    padding-left: 6px;
-    font-size: 20px;
-    min-width: 250px;
-    margin-left: 6px;
-    height: 32px;
+.poista{
     border: none;
-    display: flex;
+    margin: 10px;
     border-radius: 3px;
-    background-color: white;
-    
-    
+    height: 30px; 
+    background-color: rgb(106, 134, 158);
 }
-li > label {
-    padding-left: 6px;
-    font-size: 20px;
-    min-width: 250px;
-    margin-left: 6px;
-    height: 32px;
-    border: none;
-    display: flex;
-    border-radius: 3px;
-    background-color: white;
-    line-height: 33px;
+
+.poista:hover{
+    opacity: 0.8;
+    color:rgb(195, 221, 221);
+}
+
+
+li {
+    list-style: none;;
+    padding: 2px;
     justify-content: space-between;
+    display: flex;
+    min-width: 350px;
+    height: 30px;
+    align-items: center;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    color: rgb(97, 103, 108);
 }
+
 .fa-solid {
     
-    color: rgb(83, 117, 108);
     margin-left: 10px;
-    font-size: 20px;
+    font-size:22px;
+    color:rgb(97, 103, 108);
     margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tehty{
+   color:rgb(97, 103, 108);
+   margin-left: 5px;
     
 }
+.tehty:hover{
+    opacity: 0.8;
+    color:rgb(195, 221, 221)
 
+}
 
 .fa-solid:hover{
     opacity: 0.8;
-    color:rgb(81, 211, 211);
+    color:rgb(195, 221, 221);
 }
     
-
 
 .checked{
-    color:rgb(37, 36, 36);
+    color:rgb(97, 103, 108);
     text-decoration: line-through;
-
-}
-ul li input[type=text]{
-    display: none;
-    
     
 }
-ul li input:hover{
-    opacity: 0.8;
-    color: teal;
-}
-
-ul li.editMode input[type=text]{
+.clear{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-ul li.editMode label{
-    display:none;
-    
-    
-}
+
 
