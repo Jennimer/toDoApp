@@ -20,24 +20,29 @@
 
     <div class="container">
         <div class="otsikko">
-            
+
             <h1>TO DO LIST</h1>
-            
+
+        </div>
+        <div class="paivays">
+            <div id="paiva"></div>
         </div>
 
         <div class="lisaysBoxi">
-            <input id="uudetTekemiset" type="text" class="text" value="Add task"><button  class="fa-solid fa-plus" id="lisaaTekeminen"></button><br/><br/>
+            <input id="tekemisetInput" type="text" class="text" placeholder="Add task"><i id="lisaaTekeminen"
+                class="fa-solid fa-plus"></i>
         </div>
-        <div id="otsikko2"><h3>TASK</h3></div>
+        <div id="otsikko2">
+            <h3>Things you need to do</h3>
+        </div>
         <div class="tehtavat" id="tehtavaBoxi">
-            
             <ul id="lista">
-   
-
             </ul>
         </div>
 
-
+        <div class="clear">
+            <button class="poista" onclick="UI.poistaKaikkiToDo()">Remove All</button>
+        </div>
     </div>
     <script src="appi.js"></script>
 
