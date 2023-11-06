@@ -113,7 +113,7 @@ li {
     color: rgb(97, 103, 108);
 }
 
-.fa-solid {
+.fa fa-plus-square {
     
     margin-left: 10px;
     font-size:22px;
@@ -132,7 +132,7 @@ li {
 
 }
 
-.fa-solid:hover{
+.fa fa-plus-square:hover{
     opacity: 0.8;
     color:rgb(195, 221, 221);
 }
