@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    --ff-sans: "Josefin Sans", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 body{
     margin: 20px;
@@ -23,7 +23,6 @@ body{
     width: 450px;
     align-items: center;
     justify-content: center;
-    background-image: url("huonekasvit.jpg");
 }
 .navi{
     display: flex;
