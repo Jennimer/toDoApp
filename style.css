@@ -66,14 +66,7 @@ input{
     font-family: 'Josefin Sans', sans-serif;
     
 }
-#lisaaTekeminen{
-    
-    margin-left: -27px;
-    margin-top: 7px;
-    height: 50px;
-    width: 50px;
-    border: none;
-}
+
 .paivays, #otsikko2{
     color: rgb(53, 70, 69);
     margin: 20px;
