@@ -115,18 +115,16 @@ li {
 }
 
 .fa fa-plus-square {
-    
-    margin-left: 10px;
-    font-size:22px;
-    color:rgb(97, 103, 108);
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 22px;
     
 }
+
 .tehty{
    color:rgb(97, 103, 108);
    margin-left: 5px;
 }
+
 .tehty:hover{
     opacity: 0.8;
     color:rgb(195, 221, 221)
