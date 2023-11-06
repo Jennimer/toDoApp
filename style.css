@@ -118,6 +118,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
 }
 .tehty{
    color:rgb(97, 103, 108);
