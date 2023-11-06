@@ -16,6 +16,7 @@ body{
     border-radius: 5px;
  
 }
+
 .container{
     display: flex;
     flex-direction: column;
@@ -109,7 +110,7 @@ li {
 
 .fa-solid fa-circle-plus {
     margin-left: 20px;
-    margim-top: 5px;
+    margin-top: 5px;
     font-size: 22px;
     
 }
