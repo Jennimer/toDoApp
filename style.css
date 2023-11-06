@@ -2,12 +2,13 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
+    
 }
 body{
     margin: 20px;
     display: flex;
     justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .otsikko, .lisaysBoxi {
@@ -20,13 +21,14 @@ body{
 }
 .container{
     display: flex;
-    width: 450px;
     align-items: center;
     justify-content: center;
 }
 .navi{
     display: flex;
     background-image: url("huonekasvit.jpg");
+    width: 100%;
+    padding: 30px;
 }
 .tehtavat{
     
