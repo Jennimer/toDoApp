@@ -114,7 +114,11 @@ li {
     font-size: 22px;
     
 }
-
+#lisaaTekeminen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .tehty{
    color:rgb(97, 103, 108);
    margin-left: 5px;
