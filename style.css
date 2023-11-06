@@ -25,6 +25,8 @@ body{
 }
 .navi{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("huonekasvit.jpg");
     width: 100%;
     padding: 30px;
