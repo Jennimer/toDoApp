@@ -107,8 +107,9 @@ li {
     color: rgb(97, 103, 108);
 }
 
-.fa fa-plus-square {
+.a-solid fa-circle-plus {
     margin-left: 20px;
+    margim-bottom: 5px;
     font-size: 22px;
     
 }
