@@ -74,16 +74,15 @@ input{
 }
 h3{
     font-size: 22px;
-    text-align: center;
 }
 
 .poista{
     border: none;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 3px;
-    height: 30px; 
     background-color: rgb(106, 134, 158);
+    color: white;
 
 }
 .poista:hover{
