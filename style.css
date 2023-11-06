@@ -2,11 +2,10 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: : "Josefin Sans", sans-serif;
+    --ff-sans: "Josefin Sans", sans-serif;
 }
 body{
     margin: 20px;
-    background-image: url("huonekasvit.jpg");
     display: flex;
     justify-content: center;
 }
@@ -22,6 +21,7 @@ body{
 .container{
     width: 450px;
     align-items: center;
+    background-image: url("huonekasvit.jpg");
 }
 .tehtavat{
     
