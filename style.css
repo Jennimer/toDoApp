@@ -19,8 +19,14 @@ body{
  
 }
 .container{
+    display: flex;
     width: 450px;
     align-items: center;
+    justify-content: center;
+    background-image: url("huonekasvit.jpg");
+}
+.navi{
+    display: flex;
     background-image: url("huonekasvit.jpg");
 }
 .tehtavat{
