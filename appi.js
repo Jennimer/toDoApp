@@ -129,7 +129,7 @@ lisaaNappi.addEventListener("click", function (e) {
       alert("Add new task");
       return
     }
-    if (uudetTekemisetInput.value.length > 20) {
+    if (uudetTekemisetInput.value.length > 30) {
       alert("Task too long!");
       uudetTekemisetInput.value = "";
       return
